@@ -25,13 +25,8 @@
 - **Metrics**: R², RMSE, MAE, Spearman
 
 ## Results (scaffold test set)
-| Model | R² | RMSE | MAE | Spearman |
-|---|---|---|---|---|
-| SVR (RBF) | 0.464 | 0.633 | 0.474 | 0.604 |
-| Random Forest | 0.438 | 0.648 | 0.488 | 0.581 |
-| kNN (k=5) | 0.330 | 0.707 | 0.523 | 0.520 |
-| Ridge | 0.257 | 0.745 | 0.572 | 0.483 |
-| Baseline | -0.001 | 0.865 | 0.658 | n/a |
+check pdf 
+remarks -You see the fitness is poor and the mean error is very high
 
 ## Activity cliffs
 - 23,464 similar pairs (Tanimoto >= 0.7), 638 cliff pairs (|ΔpChEMBL| >= 2)
